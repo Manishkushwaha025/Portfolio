@@ -452,7 +452,7 @@ contact
   margin-bottom: 80px;
 }
 form#contact:before {
-  background-image: url(../images/contact-top-right-v2.png);
+  background-image: url('images/contact-top-right-v2.png');
   position: absolute;
   right: 0;
   top: 0;
@@ -471,7 +471,7 @@ form#contact:before {
 }
 
 form#contact:after {
-  background-image: url(../images/contact-bottom-right-v2.png);
+  background-image: url('images/contact-bottom-right-v2.png');
   position: absolute;
   right: 0;
   bottom: 0;
@@ -594,7 +594,7 @@ Footer Style
 */
 
 footer {
-  background-image: url(../images/footer-bg-v2.jpg);
+  background-image: url('images/footer-bg-v2.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
