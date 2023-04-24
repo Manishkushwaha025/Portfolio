@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="clock.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styleman.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-p/FsYwD+KLW8ZqAt3q4fqiJVJuzILGnhW8XlJZtnS6Zk/jYogJcQ8hNLqHE3jK4zkTEvOh/qPxdG8PZtnESmWA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  
+</head>
+
+<body>
+
+
+
+  <div class="pre-header">
+    <div class="pre-header__contact">
+      <a href="mailto:190140111060.manishkushwaha@gmail.com" class="pre-header__email">190140111060.manishkushwaha@gmail.com</a>
+    </div>
+    <div class="social-icon">
+      <a href="https://linkedin.com/in/kushwaha-manish-559192243/ target=" _blank"><img
+          src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+      <a href="https://github.com/Manishkushwaha025/" target="_blank"><img
+          src="https://cdn-icons-png.flaticon.com/512/25/25657.png" alt="GitHub"></a>
+      <a href="https://www.instagram.com/undesireableman/" target="_blank"><img
+          src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+    </div>
+  </div>
+
+  <div class="blank">
+    <h2>Manish Kushwaha</h2>
+  </div>
+
+
+  <!-- NAVBAR COMMENT -->
+  <nav class="navbar justify-content-center bg-dark" data-bs-theme="dark">
+    <!-- NAVBAR LOGO -->
+    <img class="navbar-iteam img-fluid" src="images/logo.png" width="40" height="28">
+    &nbsp;
+    <a class="navbar-brand" href="#">PORTFOLIO</a>
+    &nbsp;&nbsp;
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <!-- HOME -->
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <!-- ABOUT -->
+              <a class="nav-link" href="#about" onclick="scrollToElement('about')">About</a>
+            </li>
+            <li class="nav-item">
+              <!-- Resume -->
+              <a class="nav-link" href="#iconig">Resume</a>
+            </li>
+            <li class="nav-item">
+              <!-- contact us -->
+              <a class="nav-link" href="#contact">Contact-us</a>
+            </li>
+          </ul>
+          &nbsp;&nbsp;
+          <!-- SEARCH BAR -->
+          <div class="group">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+              <g>
+                <path
+                  d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                </path>
+              </g>
+            </svg>
+            <input placeholder="Search" type="search" class="input">
+          </div>
+        </div>
+      </div>
+    </nav>
+  </nav>
+  <!-- CLOCK OF BODY PAGE -->
+  <div class="welcome">
+    <img id="bgimg" src="images/manish.png">
+    <div class="container-fluid justify-content-end">
+      <table class="table table-dark table-hover">
+        <div id="clock">00:00:00</div>
+      </table>
+    </div>
+    <!-- Heading section -->
+    <section class="text">
+      <div id="text">
+        <p id="name">Hi I'm<span id="man">Manish.</span>
+        <p id="destroy">I like to <del id="delele">Destroy</del><span id="create">Create</span> stuff.</p>
+        </p>
+      </div>
+    </section>
+    <section class="imagesec">
+      <img id="bgimage" src="images/Multitasking-removebg.png">
+    </section>
+  </div>
+  <!-- About Section -->
+  <div class="container" id="about">
+    <section class="section">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I'm a Web developer, Youtuber and Video Editor with a passion for creating beautiful and intuitive user
+        interfaces and Stuff. I specialize
+        in
+        HTML, CSS, and JavaScript, and have experience working with a variety of frontend frameworks and libraries,
+        including React, Bootstrap, and jQuery.
+      </p>
+      <p>My goal is to use my skills and experience to help build engaging and impactful digital experiences that
+        delight users and drive results. Whether I'm working on a website, application, or digital product, I always
+        strive to push the boundaries of what's possible and create experiences that are both beautiful and
+        functional.</p>
+      <div class="social-icons">
+        <a id="iconig" href="https://drive.google.com/uc?export=download&id=12cHe1N0JmcVY4cRE7FnRPMc-pSnVjuip"
+          download><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="30px" height="30px">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path
+              d="M12 15l-5-5h3V9.01h4V10h3l-5 5zm7-10c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1H5c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h14zm-7 9l5-5h-3V4.99h-4V4h-3l5 5z" />
+          </svg>Download Resume</a>
+      </div>
+    </section>
+    <section class="section">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
+        <li class="skill-item">
+          <span style="width: 80%;"></span>
+          <div class="skill-label">HTML - 80%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 70%;"></span>
+          <div class="skill-label">CSS - 70%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 60%;"></span>
+          <div class="skill-label">JavaScript - 60%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 40%;"></span>
+          <div class="skill-label">Python - 40%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 60%;"></span>
+          <div class="skill-label">PHP - 60%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 80%;"></span>
+          <div class="skill-label">MySQL - 80%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 60%;"></span>
+          <div class="skill-label">C++ - 60%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 65%;"></span>
+          <div class="skill-label">Computer Networking - 65%</div>
+        </li>
+        <li class="skill-item">
+          <span style="width: 50%;"></span>
+          <div class="skill-label">ReactJS - 50%</div>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- project section -->
+  <h1 id="project">Projects</h1>
+  <div class="project-slider">
+    <div class="project-row">
+      <div class="project-item">
+        <img src="images/clock.png" alt="Project 1" onclick="showProject('project1')">
+        <h3>Clock</h3>
+      </div>
+      <div class="project-item">
+        <img src="images/calculator.png" alt="Project 2" onclick="showProject('project2')">
+        <h3>Calculator</h3>
+      </div>
+      <div class="project-item">
+        <img src="images/todo.png" alt="Project 3" onclick="showProject('project3')">
+        <h3>Crud Operation</h3>
+      </div>
+      <div class="project-item">
+        <img src="images/travelworld.png" alt="Project 4" onclick="showProject('project4')">
+        <h3>Travel website</h3>
+      </div>
+      <div class="project-item">
+        <img src="images/portfolio.png" alt="Project 5" onclick="showProject('project5')">
+        <h3>Portfolio website</h3>
+      </div>
+    </div>
+    <div class="project-details" id="project1">
+      <div class="project-content">
+        <h2>Clock</h2>
+        <p>Here, I made a Simple Digital Clock.</p>
+        <button onclick="hideProject('project1')">Close</button>
+      </div>
+    </div>
+    <div class="project-details" id="project2">
+      <div class="project-content">
+        <h2>Calculator</h2>
+        <p>Here, I made a simple Calculator that can perform simple arithmetic operation.</p>
+        <button onclick="hideProject('project2')">Close</button>
+      </div>
+    </div>
+    <div class="project-details" id="project3">
+      <div class="project-content">
+        <h2>ToDo Web Page</h2>
+        <p>Here, I made a ToDo website page by using PHP CRUD operation.</p>
+        <button onclick="hideProject('project3')">Close</button>
+      </div>
+    </div>
+    <div class="project-details" id="project4">
+      <div class="project-content">
+        <h2>Project 4</h2>
+        <p>Here, I had done my Internship project that was Travel World website.</p>
+        <button onclick="hideProject('project4')">Close</button>
+      </div>
+    </div>
+    <div class="project-details" id="project5">
+      <div class="project-content">
+        <h2>Portfolio website</h2>
+        <p>Here, I made my Portfolio website.</p>
+        <button onclick="hideProject('project5')">Close</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="contact" class="contact-us section">
+    <div class="cont">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h6>Contact Us</h6>
+            <h4>Get In Touch With Us <em>Now</em></h4>
+            <div class="line-dec"></div>
+          </div>
+        </div>
+        <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+          <form id="contact" class="contact-form" onsubmit="return submitForm()">
+            <div id="form-response"></div>
+            <div class="row">
+              <div class="col-lg-6">
+                <fieldset>
+                  <input type="name" name="name" placeholder="Name" autocomplete="on" required>
+                </fieldset>
+                <fieldset>
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email"
+                    required="">
+                </fieldset>
+                <fieldset>
+                  <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
+                </fieldset>
+              </div>
+              <div class="col-lg-6">
+                <fieldset>
+                  <textarea name="message" type="text" class="form-control" id="message" placeholder="Message"
+                    required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-lg-12">
+                <fieldset>
+                  <input type="submit" value="Send Message Now" id="submit-btn" name="submit" class="main-button">
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <hr class="hr1">
+  <div class="vid">
+    <video height="120px" src="images/Thank you.mp4" autoplay loop controls></video>
+  </div>
+
+
+  <script>
+    function showProject(id) {
+      var projectDetails = document.getElementById(id);
+      projectDetails.style.display = "block";
+      document.body.style.overflow = "hidden";
+    }
+
+    function hideProject(id) {
+      var projectDetails = document.getElementById(id);
+      projectDetails.style.display = "none";
+      document.body.overflow = "auto";
+    }
+  </script>
+  <script>
+    function scrollToElement(elementId) {
+      var element = document.getElementsById(elementId);
+      element.scrollInToView({ behavior: "smooth" });
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <footer>
+    <div class="cont">
+      <div class="row">
+        <div class="col-lg-8">
+          <ul>
+            <p>Copyright © 2023 All Right Reserved by MK Portfolio.
+              <br>Designed: Manish Kushwaha
+            </p>
+          </ul>
+        </div>
+        <div class="social-icons col-lg-4">
+          <a href="https://linkedin.com/in/kushwaha-manish-559192243/ target=" _blank"><img
+              src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+          <a href="https://github.com/Manishkushwaha025/" target="_blank"><img
+              src="https://cdn-icons-png.flaticon.com/512/25/25657.png" alt="GitHub"></a>
+          <a href="https://www.instagram.com/undesireableman/" target="_blank"><img
+              src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
